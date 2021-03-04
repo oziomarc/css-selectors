@@ -1,0 +1,74 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0px;
+  padding: 0px;
+  /* bottom: 0px; */
+
+}
+
+body, html, {
+  margin: 0px;
+  padding: 0px;
+  /* height: 100%; */
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+/* div > p, h1 {
+height: 100%;
+width: 100%; */
+
+#grad1 {
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  background-color: #1fc8db;
+  background-image: linear-gradient(140deg, #C2EBEB 0%, #D7C2EB 50%, #EBC2D6 75%);
+  color: white;
+  /* height: 100%
+  width: 100% */
+}
+
+.mainContainer {
+  margin: 0px;
+  display: flex;
+  top: 0px;
+  padding: 50px;
+  /* height: 100%; */
+}
+
+.mainTitle{
+  top: 0px;
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+  font-size: 12px;
+}
+
+.mainTitle2{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  width: 600px;;
+  padding: 60px;
+  font-size: 20px;
+  /* height: 100%; */
+}
+
+p + p {
+  margin-top: 30px;
+  text-align: right;
+  color: #553f69;
+}
+
+.mainTitle + h2{
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+  font-weight: 700;
+}
